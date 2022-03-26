@@ -25,8 +25,23 @@ public class DemoTest {
 		
 		// ------------------------------
 		
+		Directivo d1 = new Directivo();
+		
+		d1.setNombres("Katerine");
+		d1.setApellidos("Duran");
+		d1.setEdad(18);
+		
+		d1.setSalario(12000);
+		d1.setCodigoEmpleado(12312);
+		
+		d1.setValorBonificacion(1212);
+		
+		
+		// ------------------------------
+		
 		System.out.println(p1.calcularAnioNacimiento());
 		System.out.println(e1.calcularAnioNacimiento());
+		System.out.println(d1.calcularAnioNacimiento());
 		
 	}
 	

@@ -12,7 +12,7 @@ public class Figura {
 	 * con los requerimientos propios de cada figura geométrica.
 	 * @return
 	 */
-	public double calcularArea() {
+	public double calcularArea(int var1, int var2) {
 		double area = 0;
 		
 		return area;
